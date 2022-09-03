@@ -1,0 +1,123 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(122, 214, 233, 0.603);
+}
+h1{
+    
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 30px;
+    background-image: linear-gradient(to top, rgba(162, 233, 247, 0.603),rgba(6, 108, 124, 0.394));
+padding-bottom: 30px;
+}
+.task{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    background: rgba(73, 164, 184, 0.243);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba(140, 229, 245, 0.18);
+border-bottom: 4px solid rgb(155, 193, 216);;
+}
+p{
+    font-size: 22px;
+}
+.icon{
+    font-size: 24px;
+}
+.icon:hover{
+    font-size: 26px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.icon-star-full,.icon-bin,.icon-eye{
+    opacity: 0.4;
+    font-size: 27px;
+}
+.icon-star-full:hover{
+    color: orange;
+    opacity: 1;
+    font-size: 29px;
+}
+.icon-bin{
+    margin-right: 10px;
+    font-size: 27px;
+}
+.icon-bin:hover{
+   color: rgb(2, 48, 53);
+    font-size: 27px;
+    opacity: 1;
+}
+.icon-eye{
+    color: rgb(6, 71, 91);
+    font-size: 24px;
+}
+.icon-eye:hover{
+    color: rgb(6, 71, 91);
+     font-size: 24px;
+     opacity: 1;
+
+ }
+ h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+ }
+ form{
+    text-align: center;
+    margin-bottom: 200px;
+ }
+ input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vw;
+    font-size: 21px;
+    text-align: center;
+ }
+ button{all :unset}
+ .icon-download{
+    font-size: 40px;
+    color: rgb(44, 72, 96);
+    margin-left: 17px;
+    position: relative;
+    top: 10px;
+ }
+ .icon-download:hover{
+    font-size: 43px;
+    transition: 0.2s;
+    color: rgb(31, 53, 41);
+ }
+ /* for js */
+ .dn{
+    display: none;
+ }
+.icon-heart{
+    font-size: 23px;
+    color: brown;
+}.icon-heart:hover{
+    font-size: 25px;
+    transition: 0.2s;
+}
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+
+}
+.orange{
+   
+    color: orange;
+    opacity: 1;
+}
